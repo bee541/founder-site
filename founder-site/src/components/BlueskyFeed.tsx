@@ -8,13 +8,15 @@ interface BlueskyPost {
 
 async function getBlueskyPosts(): Promise<BlueskyPost[]> {
   try {
+    // TODO: Set your Bluesky handle here
+    const handle = 'lisanne.bsky.social';
     const agent = new BskyAgent({
       service: 'https://bsky.social',
     });
 
-    // Use a public read-only approach — no auth needed for public posts
-    // In production, you'd use an app password or session
-    const handle = 'lisanne.bsky.social'; // TODO: confirm Lisa's Bluesky handle
+    // For public posts, no auth needed. For higher rate limits, use an app password.
+    // To use auth: await agent.login({ identifier: handle, password: process.env.BLUESKY_APP_PASSWORD });
+
     const { data: profile } = await agent.getProfile({ actor: handle });
 
     const { data: feed } = await agent.getAuthorFeed({
@@ -23,7 +25,7 @@ async function getBlueskyPosts(): Promise<BlueskyPost[]> {
     });
 
     return feed.feed
-      .filter((item) => item.reason === null) // only original posts, not reposts
+      .filter((item) => item.reason === null)
       .map((item) => ({
         text: item.post.record.text,
         createdAt: item.post.record.createdAt,
