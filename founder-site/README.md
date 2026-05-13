@@ -1,36 +1,133 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lisa — Founder Site
 
-## Getting Started
+Modern editorial-style founder website built with Next.js 14, featuring dark mode, Bluesky integration, and a build-in-public ethos.
 
-First, run the development server:
+## ✨ Features
+
+- **Editorial design** — Clean typography, generous whitespace, warm aesthetic
+- **Dark/light mode** — Seamless theme switching with `next-themes`
+- **Build in Public** — Bluesky feed integration + "Currently Building" section
+- **Project showcase** — Modular cards with status, waitlist links, tags
+- **Philosophy section** — Founder worldview and principles
+- **SEO optimized** — Metadata, Open Graph, Twitter cards
+- **Mobile-first** — Fully responsive
+- **Vercel-ready** — One-click deploy
+
+## 🚀 Quick Deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/bee541/founder-site)
+
+1. Click the button above (requires GitHub account)
+2. Login to Vercel
+3. Click Deploy
+4. Add custom domain `lisa-launch.site` in project settings
+5. Done
+
+## 🛠️ Local Development
 
 ```bash
+git clone https://github.com/bee541/founder-site.git
+cd founder-site
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+  app/
+    layout.tsx    # Root layout with theme provider
+    page.tsx      # Homepage (all sections)
+    globals.css   # Tailwind + custom styles
+  components/
+    Header.tsx        # Navigation + theme toggle
+    Footer.tsx        # Footer + social links
+    ProjectCard.tsx   # Reusable project card
+    BlueskyFeed.tsx   # Bluesky API integration
+    ThemeProvider.tsx # Dark mode context
+  data/
+    projects.ts      # Project definitions (edit here!)
+  lib/
+    posts.ts         # Markdown blog utilities
+public/
+  lisa.jpg           # Founder photo
+```
 
-## Learn More
+## 🎨 Customize Content
 
-To learn more about Next.js, take a look at the following resources:
+**Projects** → edit `src/data/projects.ts`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Copy** → edit sections in `src/app/page.tsx`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Bluesky handle** → set `handle` in `src/components/BlueskyFeed.tsx` (line 9)
 
-## Deploy on Vercel
+**Social links** → update URLs in `Header.tsx` and `Footer.tsx`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Email** → update `mailto:` links in layout/page
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎯 Project Cards
+
+Each project card shows:
+- Name + description
+- Status badge (active, poc, archived)
+- Tags (tech stack / category)
+- Waitlist link (if provided)
+- Live link (if provided)
+
+Status types:
+- `active` — green badge
+- `poc` — blue badge
+- `archived` — muted border
+
+## 🌙 Dark Mode
+
+Uses `next-themes` with `class` strategy. Toggle in header.
+
+Color palette (via Tailwind):
+- `#0A0E27` (navy)
+- `#1A1F3A` (charcoal)
+- `#F5A623` (amber)
+
+## 📝 Blog Support
+
+Markdown posts go in `src/posts/`. Filename format: `YYYY-MM-DD-slug.md`
+
+Frontmatter:
+```yaml
+---
+title: "Post Title"
+date: "2026-05-13"
+excerpt: "Short summary..."
+---
+```
+
+To display blog posts on the site, create a `/blog` page using `src/lib/posts.ts`.
+
+## 📦 Dependencies
+
+- next@14
+- react@18
+- @atproto/api — Bluesky API client
+- next-themes — dark mode
+- lucide-react — icons
+- gray-matter — markdown parsing
+- remark + remark-html — markdown → HTML
+
+## 🎨 Design Philosophy
+
+- **Typography:** Inter (sans) + Playfair Display (serif)
+- **Space:** Generous padding, breathing room
+- **Color:** Minimal palette, accent-amber only
+- **Motion:** Subtle hover states, fade-ins
+- **Feel:** Editorial, warm, founder-focused (not corporate)
+
+## 📍 Live Site
+
+Currently deployed at: https://lisa-launch.site (once domain connected)
+
+---
+
+Built with curiosity by Lisa.
