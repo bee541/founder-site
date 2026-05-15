@@ -27,8 +27,8 @@ async function getBlueskyPosts(): Promise<BlueskyPost[]> {
     return feed.feed
       .filter((item) => item.reason === null)
       .map((item) => ({
-        text: item.post.record.text,
-        createdAt: item.post.record.createdAt,
+        text: (item.post.record as { text: string }).text,
+        createdAt: (item.post.record as { createdAt: string }).createdAt,
         uri: item.post.uri,
       }));
   } catch (error) {
@@ -42,7 +42,7 @@ export default async function BlueskyFeed() {
 
   if (posts.length === 0) {
     return (
-      <div className="text-zinc-500 dark:text-zinc-400 italic">
+      <div className="text-gray-500 dark:text-gray-500 italic">
         No recent posts found.
       </div>
     );
@@ -51,11 +51,11 @@ export default async function BlueskyFeed() {
   return (
     <div className="space-y-6">
       {posts.map((post, i) => (
-        <article key={i} className="border-b border-zinc-200 dark:border-zinc-800 pb-6 last:border-0">
-          <p className="text-zinc-800 dark:text-zinc-200 leading-relaxed whitespace-pre-wrap">
+        <article key={i} className="border-b border-gray-200 dark:border-[#A78BFA]/10 pb-6 last:border-0">
+          <p className="text-gray-800 dark:text-gray-300 leading-relaxed whitespace-pre-wrap">
             {post.text}
           </p>
-          <div className="mt-2 text-xs text-zinc-500 dark:text-zinc-400">
+          <div className="mt-2 text-xs text-gray-500 dark:text-gray-500">
             {new Date(post.createdAt).toLocaleDateString('en-US', {
               month: 'short',
               day: 'numeric',

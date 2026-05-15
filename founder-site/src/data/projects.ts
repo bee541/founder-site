@@ -20,8 +20,8 @@ export const projects: Project[] = [
     status: 'active',
     type: 'App',
     tags: ['Gen Z', 'Gamification', 'Life Skills'],
-    waitlistUrl: 'https://forms.gle/...', // TODO: add actual waitlist link
-    color: '#10b981',
+    waitlistUrl: 'https://forms.gle/waitlist', // TODO: add actual waitlist link
+    color: '#A78BFA',
   },
   {
     id: 'playlist-ai',
@@ -31,8 +31,8 @@ export const projects: Project[] = [
     status: 'active',
     type: 'SaaS',
     tags: ['AI', 'Music', 'Personalization'],
-    waitlistUrl: 'https://forms.gle/...', // TODO: add actual waitlist link
-    color: '#8b5cf6',
+    waitlistUrl: 'https://forms.gle/waitlist', // TODO: add actual waitlist link
+    color: '#A78BFA',
   },
   {
     id: 'aruna',
@@ -42,7 +42,7 @@ export const projects: Project[] = [
     status: 'active',
     type: 'iOS App',
     tags: ['Calendar', 'Identity', 'Wellness'],
-    color: '#F5A623',
+    color: '#A78BFA',
   },
   {
     id: 'chewcycle',
@@ -52,7 +52,7 @@ export const projects: Project[] = [
     status: 'archived',
     type: 'Health Tech',
     tags: ['Supplements', 'Blood Testing', 'Personalization'],
-    color: '#ec4899',
+    color: '#A78BFA',
   },
   {
     id: 'true-clarity',
@@ -62,6 +62,6 @@ export const projects: Project[] = [
     status: 'poc',
     type: 'Hardware',
     tags: ['Display Tech', 'Patent Pending', 'Outdoor'],
-    color: '#06b6d4',
+    color: '#A78BFA',
   },
 ];
