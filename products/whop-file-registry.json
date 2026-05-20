@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "product": "AI Prompt Vault",
+    "filename": "ai_prompt_vault_48_prompts.md",
+    "fileId": "file_LuQK81jatcyW9"
+  },
+  {
+    "product": "Reddit Lab",
+    "filename": "reddit_to_shorts_content_lab.md",
+    "fileId": "file_XkTfu6fslcjB5"
+  },
+  {
+    "product": "Calendar",
+    "filename": "creator_calendar_2026.md",
+    "fileId": "file_qiaABPw5EOUOy"
+  },
+  {
+    "product": "Calendar CSV",
+    "filename": "creator_calendar_notion_import.csv",
+    "fileId": "file_KFEX1ehwB8kju"
+  }
+]
