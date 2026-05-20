@@ -1,0 +1,1032 @@
+{
+  "product": "AI Prompt Vault",
+  "total_prompts": 73,
+  "prompts": [
+    {
+      "category": "Social Media & Reels",
+      "name": "Hook-first TikTok caption",
+      "prompt": "Write a punchy first-line hook for a TikTok about {TOPIC}. Must land in 2 seconds. No preamble. Hook structure: [question OR bold statement OR scenario] + [what it promises] \u2014 {MAXLEN} characters max.",
+      "tags": [
+        "Hook-first",
+        "TikTok",
+        "caption",
+        "Social",
+        "Media",
+        "&",
+        "Reels"
+      ]
+    },
+    {
+      "category": "Social Media & Reels",
+      "name": "LinkedIn millionaire post",
+      "prompt": "Write a LinkedIn post from the POV of a 30-year-old operator who quietly runs {N} revenue. No bragging. Direct, slightly dry, specific numbers. Format: 3-4 short paragraphs. End with one question. No hashtags.",
+      "tags": [
+        "LinkedIn",
+        "millionaire",
+        "post",
+        "Social",
+        "Media",
+        "&",
+        "Reels"
+      ]
+    },
+    {
+      "category": "Social Media & Reels",
+      "name": "Instagram carousel opener",
+      "prompt": "Write slide 1 of 8 for an Instagram carousel about {TOPIC}. Hook must interrupt scrolling. Subtitle line must promise a specific outcome. No clich\u00e9s. Max 30 words total on slide 1.",
+      "tags": [
+        "Instagram",
+        "carousel",
+        "opener",
+        "Social",
+        "Media",
+        "&",
+        "Reels"
+      ]
+    },
+    {
+      "category": "Social Media & Reels",
+      "name": "YouTube Shorts script",
+      "prompt": "Write a 40-second YouTube Shorts script on '{TOPIC}'. Structure: [0-8s hook, 8-32s main point with visual cue, 32-40s CTA]. Screen direction notes in brackets []. Total words under 100.",
+      "tags": [
+        "YouTube",
+        "Shorts",
+        "script",
+        "Social",
+        "Media",
+        "&",
+        "Reels"
+      ]
+    },
+    {
+      "category": "Social Media & Reels",
+      "name": "Twitter/X thread starter",
+      "prompt": "Write a 7-tweet thread about {TOPIC}. Tweet 1 must be controversial but defensible. Tweets 2-6 each have one insight + one concrete example. Tweet 7 ends hard CTA. No filler.",
+      "tags": [
+        "Twitter/X",
+        "thread",
+        "starter",
+        "Social",
+        "Media",
+        "&",
+        "Reels"
+      ]
+    },
+    {
+      "category": "Social Media & Reels",
+      "name": "Meme caption for Twitter",
+      "prompt": "Write a Twitter caption that pairs with a industry-insider meme about {TOPIC}. Two sentences. Punchy. Insider knowledge shows through.",
+      "tags": [
+        "Meme",
+        "caption",
+        "for",
+        "Twitter",
+        "Social",
+        "Media",
+        "&",
+        "Reels"
+      ]
+    },
+    {
+      "category": "Social Media & Reels",
+      "name": "Instagram Stories swipe sequence",
+      "prompt": "Write 5 slides for an Instagram Stories sequence about {TOPIC}. Each slide is one sentence or phrase, maximum 10 words. Progressive build to a CTA. No hashtags.",
+      "tags": [
+        "Instagram",
+        "Stories",
+        "swipe",
+        "sequence",
+        "Social",
+        "Media",
+        "&",
+        "Reels"
+      ]
+    },
+    {
+      "category": "Social Media & Reels",
+      "name": "Engagement bait comment reply",
+      "prompt": "You're a founder who just posted '{TOPIC}' on LinkedIn. Someone commented: 'How would you actually do this in practice?' Write a reply that's genuinely useful, 40-60 words, ends with a question that continues the thread.",
+      "tags": [
+        "Engagement",
+        "bait",
+        "comment",
+        "reply",
+        "Social",
+        "Media",
+        "&",
+        "Reels"
+      ]
+    },
+    {
+      "category": "Social Media & Reels",
+      "name": "Threadless single-tweet thought leader",
+      "prompt": "Write one tweet that positions the author as a serious operator in {NICHE}. Must be quotable, specific enough to feel real, opinionated enough to get replies. Max 280 characters.",
+      "tags": [
+        "Threadless",
+        "single-tweet",
+        "thought",
+        "leader",
+        "Social",
+        "Media",
+        "&",
+        "Reels"
+      ]
+    },
+    {
+      "category": "Social Media & Reels",
+      "name": "Podcast show notes boilerplate",
+      "prompt": "Write show notes for a 30-min podcast episode titled '{TITLE}'. Include: 3-5 key takeaways as bullets, 1 quote pull, timestamps summary. Format clean markdown. Don't write the full transcript.",
+      "tags": [
+        "Podcast",
+        "show",
+        "notes",
+        "boilerplate",
+        "Social",
+        "Media",
+        "&",
+        "Reels"
+      ]
+    },
+    {
+      "category": "Social Media & Reels",
+      "name": "TikTok trending sound caption",
+      "prompt": "Write a 3-sentence caption for a trending TikTok sound about {TOPIC}. First line must be a hook that references the sound's energy. Second line is the insight. Third line ends with a question.",
+      "tags": [
+        "TikTok",
+        "trending",
+        "sound",
+        "caption",
+        "Social",
+        "Media",
+        "&",
+        "Reels"
+      ]
+    },
+    {
+      "category": "Social Media & Reels",
+      "name": "Facebook post copy",
+      "prompt": "Write a Facebook post for {NICHE} about {TOPIC}. Conversational, warm, mobile-first. Short paragraphs. One clear action at the end. No corporate tone.",
+      "tags": [
+        "Facebook",
+        "post",
+        "copy",
+        "Social",
+        "Media",
+        "&",
+        "Reels"
+      ]
+    },
+    {
+      "category": "Copywriting & Sales",
+      "name": "Cold email opening line",
+      "prompt": "Write a cold email opening line for reaching {TITLE} at {COMPANY_TYPE}. Must not mention the product. Must signal awareness of their specific situation. Max 25 words.",
+      "tags": [
+        "Cold",
+        "email",
+        "opening",
+        "line",
+        "Copywriting",
+        "&",
+        "Sales"
+      ]
+    },
+    {
+      "category": "Copywriting & Sales",
+      "name": "Sales landing page hook",
+      "prompt": "Write the H1 + subhead for a landing page selling {PRODUCT} to {AUDIENCE}. H1 is one sentence, subhead expands. Combined under 15 words. Benefit-first, not feature-first.",
+      "tags": [
+        "Sales",
+        "landing",
+        "page",
+        "hook",
+        "Copywriting",
+        "&",
+        "Sales"
+      ]
+    },
+    {
+      "category": "Copywriting & Sales",
+      "name": "Direct response ad copy",
+      "prompt": "Write a 150-word Facebook ad for {PRODUCT}. Attention hook \u2192 pain \u2192 solution \u2192 proof \u2192 CTA. One benefit per sentence. Make it feel like a human wrote it, not an ad.",
+      "tags": [
+        "Direct",
+        "response",
+        "ad",
+        "copy",
+        "Copywriting",
+        "&",
+        "Sales"
+      ]
+    },
+    {
+      "category": "Copywriting & Sales",
+      "name": "Email subject lines",
+      "prompt": "Write 5 email subject lines for a newsletter about {TOPIC}. Each targets a different angle: curiosity, pain, urgency, social proof, utility. Label each with its strategy.",
+      "tags": [
+        "Email",
+        "subject",
+        "lines",
+        "Copywriting",
+        "&",
+        "Sales"
+      ]
+    },
+    {
+      "category": "Copywriting & Sales",
+      "name": "Call-to-action button copy",
+      "prompt": "Write 15 CTA button labels for a checkout page. Mix urgency, clarity, and value variety. Each 1-6 words. Examples of good vs bad included in output.",
+      "tags": [
+        "Call-to-action",
+        "button",
+        "copy",
+        "Copywriting",
+        "&",
+        "Sales"
+      ]
+    },
+    {
+      "category": "Copywriting & Sales",
+      "name": "Product launch announcement",
+      "prompt": "Write a product launch email for {PRODUCT_NAME}. FOMO structure: context \u2192 problem \u2192 solution \u2192 launch details \u2192 deadline \u2192 P.S. bonus. Subject line + body. Warm, not hype.",
+      "tags": [
+        "Product",
+        "launch",
+        "announcement",
+        "Copywriting",
+        "&",
+        "Sales"
+      ]
+    },
+    {
+      "category": "Copywriting & Sales",
+      "name": "Sales objection response",
+      "prompt": "Write a response to the objection: '{OBJECTION}' when selling {PRODUCT_TYPE}. Use the Feel-Felt-Found framework. Maximum 80 words. No defensiveness. Empathic + evidence-based.",
+      "tags": [
+        "Sales",
+        "objection",
+        "response",
+        "Copywriting",
+        "&",
+        "Sales"
+      ]
+    },
+    {
+      "category": "Copywriting & Sales",
+      "name": "Landing page conversion funnel copy",
+      "prompt": "Write a short-form landing page for {PRODUCT}. Sections: H1, Problem statement (1 para), Solution overview (1 para), 3 key benefits as bullets, Social proof placeholder, Final CTA. Total under 250 words.",
+      "tags": [
+        "Landing",
+        "page",
+        "conversion",
+        "funnel",
+        "copy",
+        "Copywriting",
+        "&",
+        "Sales"
+      ]
+    },
+    {
+      "category": "Copywriting & Sales",
+      "name": "LinkedIn InMail template",
+      "prompt": "Write a 120-word LinkedIn InMail to a {TITLE} introducing {OFFER}. Must feel like warm outreach, not cold spam. One specific reason you're reaching out to them specifically. Clear, professional CTA.",
+      "tags": [
+        "LinkedIn",
+        "InMail",
+        "template",
+        "Copywriting",
+        "&",
+        "Sales"
+      ]
+    },
+    {
+      "category": "Copywriting & Sales",
+      "name": "Product description for e-commerce",
+      "prompt": "Write a product description for {PRODUCT_NAME}. Start with the transformation it creates. List 3 features as direct benefits. One social proof line. 1 concise paragraph. No bullet points.",
+      "tags": [
+        "Product",
+        "description",
+        "for",
+        "e-commerce",
+        "Copywriting",
+        "&",
+        "Sales"
+      ]
+    },
+    {
+      "category": "Copywriting & Sales",
+      "name": "One-liner elevator pitch",
+      "prompt": "Write a one-line elevator pitch for {PRODUCT} addressed to {AUDIENCE}. Follow this formula: We help [audience] achieve [desired outcome] by [unique method] \u2014 max 25 words.",
+      "tags": [
+        "One-liner",
+        "elevator",
+        "pitch",
+        "Copywriting",
+        "&",
+        "Sales"
+      ]
+    },
+    {
+      "category": "Copywriting & Sales",
+      "name": "Referral program copy",
+      "prompt": "Write the activation copy for a referral program. One email, 80 words. Explains: the reward for referring, the reward for being referred, how to share the link. Intriguing, not cheesy.",
+      "tags": [
+        "Referral",
+        "program",
+        "copy",
+        "Copywriting",
+        "&",
+        "Sales"
+      ]
+    },
+    {
+      "category": "Email & Communication",
+      "name": "Weekly newsletter intro",
+      "prompt": "Write a newsletter intro for {TOPIC}. 30-40 words. Warm, specific, teases the newsletter content without revealing everything. Feels like a conversation from a peer.",
+      "tags": [
+        "Weekly",
+        "newsletter",
+        "intro",
+        "Email",
+        "&",
+        "Communication"
+      ]
+    },
+    {
+      "category": "Email & Communication",
+      "name": "Follow-up email (nurture sequence)",
+      "prompt": "Write a nurture email sent 3 days after a content download about {TOPIC}. Reference the previous touchpoint, add a second perspective, and link to next action. 120 words. Friendly but not salesy.",
+      "tags": [
+        "Follow-up",
+        "email",
+        "(nurture",
+        "sequence)",
+        "Email",
+        "&",
+        "Communication"
+      ]
+    },
+    {
+      "category": "Email & Communication",
+      "name": "Re-engagement email for dormant subscribers",
+      "prompt": "Write a re-engagement email for subscribers who haven't opened in 90 days. Self-deprecating angle about sending too much content. Offer a free exclusive resource for reopening. 80 words. Conversational.",
+      "tags": [
+        "Re-engagement",
+        "email",
+        "for",
+        "dormant",
+        "subscribers",
+        "Email",
+        "&",
+        "Communication"
+      ]
+    },
+    {
+      "category": "Email & Communication",
+      "name": "Bug/status update email",
+      "prompt": "Write a status update email for a product incident affecting {FEATURE}. Confident tone. What happened, what you're doing, expected resolution. 90 words. No jargon. One apology line. Sharp transparency.",
+      "tags": [
+        "Bug/status",
+        "update",
+        "email",
+        "Email",
+        "&",
+        "Communication"
+      ]
+    },
+    {
+      "category": "Email & Communication",
+      "name": "Team update announcement",
+      "prompt": "Write a team update section for a startup all-hands email. Section: '{TOPIC}'. 2 short paragraphs. Specific metrics, specific people called out. Celebrate real progress.",
+      "tags": [
+        "Team",
+        "update",
+        "announcement",
+        "Email",
+        "&",
+        "Communication"
+      ]
+    },
+    {
+      "category": "Email & Communication",
+      "name": "Interview request subject + body",
+      "prompt": "Write a podcast interview request email. Subject line + 80-word body. Mention one specific reason you chose this guest. Make the ask specific (interview format, timing, topic). No lengthy pitch deck attachment in the email.",
+      "tags": [
+        "Interview",
+        "request",
+        "subject",
+        "+",
+        "body",
+        "Email",
+        "&",
+        "Communication"
+      ]
+    },
+    {
+      "category": "Email & Communication",
+      "name": "Cancellation survey email",
+      "prompt": "Write a polite cancellation confirmation email for {PRODUCT/TYPE}. Thank the customer, explain what they lose, give them one no-fuss way to return. End warm. Don't beg. 60 words.",
+      "tags": [
+        "Cancellation",
+        "survey",
+        "email",
+        "Email",
+        "&",
+        "Communication"
+      ]
+    },
+    {
+      "category": "Email & Communication",
+      "name": "Personalized outreach to a lukewarm lead",
+      "prompt": "Write an email to a lead who downloaded '{ASSET}' but didn't book a call. Reference what they downloaded, connect it to one pain of {NPC}, one genuine question about their situation. No CTA beyond 'reply when you're free.' 100 words.",
+      "tags": [
+        "Personalized",
+        "outreach",
+        "to",
+        "a",
+        "lukewarm",
+        "lead",
+        "Email",
+        "&",
+        "Communication"
+      ]
+    },
+    {
+      "category": "Email & Communication",
+      "name": "Task reminder follow-up tone matching",
+      "prompt": "You're a project manager reminding a teammate their deliverable is 2 days overdue. Write 3 different versions: Formal workplace, informal Slack, and urgent project-risk. Under 30 words each.",
+      "tags": [
+        "Task",
+        "reminder",
+        "follow-up",
+        "tone",
+        "matching",
+        "Email",
+        "&",
+        "Communication"
+      ]
+    },
+    {
+      "category": "Email & Communication",
+      "name": "Customer success check-in at 30 days",
+      "prompt": "Write a CSM check-in email for a customer on day 30 of using {PRODUCT/TYPE}. Ask 3 specific discovery questions, not 'how is everything?'. Tone: advisory ally, not account manager. 100 words.",
+      "tags": [
+        "Customer",
+        "success",
+        "check-in",
+        "at",
+        "30",
+        "days",
+        "Email",
+        "&",
+        "Communication"
+      ]
+    },
+    {
+      "category": "SEO & Content",
+      "name": "SEO meta description",
+      "prompt": "Write an SEO meta description for a blog post about {TOPIC} targeting '{KEYWORDphrase}'. Max 160 characters. Include keyword naturally. CTA at the end: 'Learn More'.",
+      "tags": [
+        "SEO",
+        "meta",
+        "description",
+        "SEO",
+        "&",
+        "Content"
+      ]
+    },
+    {
+      "category": "SEO & Content",
+      "name": "Blog post outline",
+      "prompt": "Write a 6-section outline for a 1500-word blog post on '{TITLE}'. Each section has: (H2) heading, 2-3 sub-bullets, and one key insight to deliver. Include intro and conclusion outlines. Target SEO vs real value split: 60/40.",
+      "tags": [
+        "Blog",
+        "post",
+        "outline",
+        "SEO",
+        "&",
+        "Content"
+      ]
+    },
+    {
+      "category": "SEO & Content",
+      "name": "Listicle format intro",
+      "prompt": "Write the intro for a listicle blog post: '{TOPIC}'. Name the count in the title. First paragraph creates the problem. Second teases the solution. Hook in first sentence. 60-80 words. Perfect for SEO.",
+      "tags": [
+        "Listicle",
+        "format",
+        "intro",
+        "SEO",
+        "&",
+        "Content"
+      ]
+    },
+    {
+      "category": "SEO & Content",
+      "name": "Alt text for images",
+      "prompt": "Write descriptive alt text for 3 images in a blog post about {TOPIC}: (1) hero product shot, (2) before/after shot, (3) process infographic. Each alt text under 100 characters. Include relevant keyword naturally.",
+      "tags": [
+        "Alt",
+        "text",
+        "for",
+        "images",
+        "SEO",
+        "&",
+        "Content"
+      ]
+    },
+    {
+      "category": "SEO & Content",
+      "name": "H1 + opening paragraph",
+      "prompt": "Write an H1 and 80-word opening paragraph for a landing page about {PRODUCT} targeting '{KEYWORDPHRASE}.' H1 splits benefit from audience. First paragraph establishes credibility + starts the story.",
+      "tags": [
+        "H1",
+        "+",
+        "opening",
+        "paragraph",
+        "SEO",
+        "&",
+        "Content"
+      ]
+    },
+    {
+      "category": "SEO & Content",
+      "name": "YouTube video description with chapters",
+      "prompt": "Write a YouTube video description for a 15-min video about {TOPIC}. Include: 2-paragraph hook, chapter timestamps (5 chapters), top 3 takeaways, call to subscribe. 250 words max for main description.",
+      "tags": [
+        "YouTube",
+        "video",
+        "description",
+        "with",
+        "chapters",
+        "SEO",
+        "&",
+        "Content"
+      ]
+    },
+    {
+      "category": "SEO & Content",
+      "name": "FAQ section for product page",
+      "prompt": "Write 5 FAQ entries for a product page about {PRODUCT}. Mixes pre-purchase questions, common objections, and post-purchase logistics. Format: Question (bold) + Answer (40-60 words). FAQ section header included.",
+      "tags": [
+        "FAQ",
+        "section",
+        "for",
+        "product",
+        "page",
+        "SEO",
+        "&",
+        "Content"
+      ]
+    },
+    {
+      "category": "SEO & Content",
+      "name": "Resource page intro",
+      "prompt": "Write an intro for a resource page that lists 25+ free tools for {NICHE} operators. Compelling opening: admit a pain every reader has felt. Name the value: 'curated, not just listed'. 60 words.",
+      "tags": [
+        "Resource",
+        "page",
+        "intro",
+        "SEO",
+        "&",
+        "Content"
+      ]
+    },
+    {
+      "category": "SEO & Content",
+      "name": "Pillar page content brief",
+      "prompt": "Write a content brief for a pillar article: '{TOPIC}.' Include: primary keyword, secondary keywords, word count target, word count per section, internal link strategy, sources to cite, and E-E-A-T signal notes. Format as structured brief.",
+      "tags": [
+        "Pillar",
+        "page",
+        "content",
+        "brief",
+        "SEO",
+        "&",
+        "Content"
+      ]
+    },
+    {
+      "category": "SEO & Content",
+      "name": "Competitor comparison intro",
+      "prompt": "Write the intro section for a '{PRODUCT_A} vs {PRODUCT_B}' comparison article. POV: experienced user of both. Hook: 'if you've used both, you know exactly where this is going.' Fair tone. 80 words. Lead without judgment.",
+      "tags": [
+        "Competitor",
+        "comparison",
+        "intro",
+        "SEO",
+        "&",
+        "Content"
+      ]
+    },
+    {
+      "category": "SEO & Content",
+      "name": "Guest post pitch email",
+      "prompt": "Write an email pitch to a blogger in the {NICHE} niche offering a guest post on '{TOPIC}'. Include: one genuine compliment on their recent content, the proposal angle, and why your readers overlap with theirs. Show familiarity; don't outsource the compliment. 120 words.",
+      "tags": [
+        "Guest",
+        "post",
+        "pitch",
+        "email",
+        "SEO",
+        "&",
+        "Content"
+      ]
+    },
+    {
+      "category": "Code & Technical Writing",
+      "name": "API documentation structure",
+      "prompt": "Write the endpoint documentation template for a REST API endpoint: GET /api/{RESOURCE}. Include: description, request params table, response JSON schema, and one example request + response. Structured markdown.",
+      "tags": [
+        "API",
+        "documentation",
+        "structure",
+        "Code",
+        "&",
+        "Technical",
+        "Writing"
+      ]
+    },
+    {
+      "category": "Code & Technical Writing",
+      "name": "Code review feedback",
+      "prompt": "Write feedback on a PR that changes {COMPONENT} using {TECHNOLOGY}. Highlight 2 strengths, suggest 2 improvements (one performance, one readability), and close with encouragement. 80 words max. Specific technical details.",
+      "tags": [
+        "Code",
+        "review",
+        "feedback",
+        "Code",
+        "&",
+        "Technical",
+        "Writing"
+      ]
+    },
+    {
+      "category": "Code & Technical Writing",
+      "name": "Git commit message",
+      "prompt": "Write a conventional commit message for a change that {CHANGE}. Type is {feat|fix|refactor|docs}. Scope: {SCOPE}. Max 50 characters subject line, body explains what and why (not how) under 72 chars per line.",
+      "tags": [
+        "Git",
+        "commit",
+        "message",
+        "Code",
+        "&",
+        "Technical",
+        "Writing"
+      ]
+    },
+    {
+      "category": "Code & Technical Writing",
+      "name": "README template",
+      "prompt": "Write the structure for a new developer tool's README. Sections: Badges \u2192 What it does \u2192 Installation \u2192 Quick start \u2192 Configuration \u2192 Usage examples \u2192 Contributing \u2192 License. Each section with placeholder content. Format as Markdown.",
+      "tags": [
+        "README",
+        "template",
+        "Code",
+        "&",
+        "Technical",
+        "Writing"
+      ]
+    },
+    {
+      "category": "Code & Technical Writing",
+      "name": "API error message",
+      "prompt": "Write an API error message for a failed authentication attempt. Friendly but technical. Include: error code, what went wrong, what to do next, and where to find the auth docs. 2 sentences. Not a stack trace.",
+      "tags": [
+        "API",
+        "error",
+        "message",
+        "Code",
+        "&",
+        "Technical",
+        "Writing"
+      ]
+    },
+    {
+      "category": "Code & Technical Writing",
+      "name": "Debugging log analysis prompt",
+      "prompt": "Write a prompt to ask an AI assistant to analyze a bug in {TECHNOLOGY}. Request format: root cause (plain language), code location (file + line), reproduction steps, and suggested fix. Include example error log snippet.",
+      "tags": [
+        "Debugging",
+        "log",
+        "analysis",
+        "prompt",
+        "Code",
+        "&",
+        "Technical",
+        "Writing"
+      ]
+    },
+    {
+      "category": "Code & Technical Writing",
+      "name": "Terminal instruction for a dev",
+      "prompt": "Write a terminal instruction to run a build script in {TECHNOLOGY}. Include: the full command, expected output, and a 1-line check for success. Friendly but authoritative. One paragraph.",
+      "tags": [
+        "Terminal",
+        "instruction",
+        "for",
+        "a",
+        "dev",
+        "Code",
+        "&",
+        "Technical",
+        "Writing"
+      ]
+    },
+    {
+      "category": "Code & Technical Writing",
+      "name": "OpenAPI spec snippet",
+      "prompt": "Write an OpenAPI 3.0 snippet for a POST endpoint: '{ENDPOINT}'. Include: path, description, request body (one field), response (201 status), security. Output valid YAML. 20 lines max.",
+      "tags": [
+        "OpenAPI",
+        "spec",
+        "snippet",
+        "Code",
+        "&",
+        "Technical",
+        "Writing"
+      ]
+    },
+    {
+      "category": "Code & Technical Writing",
+      "name": "Stack Overflow question",
+      "prompt": "Write a Stack Overflow question about {TECHNOLOGY}. Title must be specific and searchable. Body includes: what you're doing, what you've tried, minimal reproducible example, tags. Targeted at getting a real answer from someone who's solved this.",
+      "tags": [
+        "Stack",
+        "Overflow",
+        "question",
+        "Code",
+        "&",
+        "Technical",
+        "Writing"
+      ]
+    },
+    {
+      "category": "Code & Technical Writing",
+      "name": "SQL query explanation",
+      "prompt": "Write a plain-language explanation of what this SQL query does: '{QUERY}'. Break it down by clause. Explain the business logic it's solving. For a non-technical ops stakeholder. 120 words max.",
+      "tags": [
+        "SQL",
+        "query",
+        "explanation",
+        "Code",
+        "&",
+        "Technical",
+        "Writing"
+      ]
+    },
+    {
+      "category": "Image & Visual Generation",
+      "name": "Midjourney cinematic still",
+      "prompt": "Write a detailed Midjourney prompt for: {SUBJECT}/{SCENE}. Style: cinematic, photorealistic, {LIGHTING} lighting. Format: Subject \u2192 Style \u2192 Composition \u2192 Technical specs (camera, lens, aperture) \u2192 Negative prompt. V6. --ar --v 6 only.",
+      "tags": [
+        "Midjourney",
+        "cinematic",
+        "still",
+        "Image",
+        "&",
+        "Visual",
+        "Generation"
+      ]
+    },
+    {
+      "category": "Image & Visual Generation",
+      "name": "DALL-E brand illustration",
+      "prompt": "Write a precise DALL-E prompt for a {STYLE} illustration of {SUBJECT} for a {INDUSTRY} brand. Style reference: {STYLE_REFERENCE}. Key visual must be recognizable at small size (social card thumbnail). Text output is 'no text' aside from the brand element.",
+      "tags": [
+        "DALL-E",
+        "brand",
+        "illustration",
+        "Image",
+        "&",
+        "Visual",
+        "Generation"
+      ]
+    },
+    {
+      "category": "Image & Visual Generation",
+      "name": "YouTube thumbnail prompt",
+      "prompt": "Write an AI image prompt for a YouTube thumbnail about '{TOPIC}'. Max 3 elements on canvas. One focal subject, high contrast, emotion clearly visible. Red/orange accent color. No text labels in the image. --ar 16:9 --style raw.",
+      "tags": [
+        "YouTube",
+        "thumbnail",
+        "prompt",
+        "Image",
+        "&",
+        "Visual",
+        "Generation"
+      ]
+    },
+    {
+      "category": "Image & Visual Generation",
+      "name": "Product photography concept",
+      "prompt": "Write a Midjourney concept prompt for product photography of {PRODUCT}. Studio lighting. White or {THEME} background. Centered subject. Professional catalogue_photo quality. --ar 3:2 --style raw. Followed by parameters only.",
+      "tags": [
+        "Product",
+        "photography",
+        "concept",
+        "Image",
+        "&",
+        "Visual",
+        "Generation"
+      ]
+    },
+    {
+      "category": "Image & Visual Generation",
+      "name": "Website header hero image",
+      "prompt": "Write a DALL-E prompt for a hero image on a {NICHE} website. Wide 16:9 aspect ratio. Hero subject: {SUBJECT}. Color palette aligns with brand: {COLORS}. Evokes: {EMOTION}. Clean, modern, no text or logos \u2014 pure visual asset only.",
+      "tags": [
+        "Website",
+        "header",
+        "hero",
+        "image",
+        "Image",
+        "&",
+        "Visual",
+        "Generation"
+      ]
+    },
+    {
+      "category": "Image & Visual Generation",
+      "name": "Social card thumbnail",
+      "prompt": "Write a Midjourney prompt for a social card / Twitter card visual for a post about {TOPIC}. Fits 1200x675. Bold focal point, limited color (3 max), no text. --ar 16:9",
+      "tags": [
+        "Social",
+        "card",
+        "thumbnail",
+        "Image",
+        "&",
+        "Visual",
+        "Generation"
+      ]
+    },
+    {
+      "category": "Image & Visual Generation",
+      "name": "Infographic concept prompt",
+      "prompt": "Write a Midjourney prompt for a minimal infographic illustration about {TOPIC}. Flat design, neutral palette, visual elements that clearly communicate the concepts. Isolated on white background. --ar 4:3 --style raw",
+      "tags": [
+        "Infographic",
+        "concept",
+        "prompt",
+        "Image",
+        "&",
+        "Visual",
+        "Generation"
+      ]
+    },
+    {
+      "category": "Image & Visual Generation",
+      "name": "Instagram carousel background",
+      "prompt": "Write a prompt for an AI-generated background image for an 8-slide Instagram carousel about {TOPIC}. Consistent visual language across slides \u2014 prompt describes the base template/asset. Slightly muted so text overlays remain readable. --ar 9:16",
+      "tags": [
+        "Instagram",
+        "carousel",
+        "background",
+        "Image",
+        "&",
+        "Visual",
+        "Generation"
+      ]
+    },
+    {
+      "category": "Personal Branding & Bio",
+      "name": "Twitter/X bio formula",
+      "prompt": "Write a Twitter bio for {ROLE} who {SPECIFIC_THING}. 150 char max. One credential marker, one personality line, one CTA. Format as single line. No quotes.",
+      "tags": [
+        "Twitter/X",
+        "bio",
+        "formula",
+        "Personal",
+        "Branding",
+        "&",
+        "Bio"
+      ]
+    },
+    {
+      "category": "Personal Branding & Bio",
+      "name": "LinkedIn headline",
+      "prompt": "Write a LinkedIn headline for {ROLE} at {COMPANY}. 220 char max. Format: [Role] | [What they've done] | [What they're building next]. Specific numbers. Not generic.",
+      "tags": [
+        "LinkedIn",
+        "headline",
+        "Personal",
+        "Branding",
+        "&",
+        "Bio"
+      ]
+    },
+    {
+      "category": "Personal Branding & Bio",
+      "name": "Instagram bio",
+      "prompt": "Write an Instagram bio for {PERSONA}. Covers: 1-line bio, 3 topics pinned in the bio link, and the bio link description. Warm, human. Under 150 words.",
+      "tags": [
+        "Instagram",
+        "bio",
+        "Personal",
+        "Branding",
+        "&",
+        "Bio"
+      ]
+    },
+    {
+      "category": "Personal Branding & Bio",
+      "name": "Personal brand tagline",
+      "prompt": "Write a personal brand tagline (40-60 chars) for someone who {SPECIFIC_ACHIEVEMENT}. Feels earned, not claimed. Avoids buzzwords. One sentence.",
+      "tags": [
+        "Personal",
+        "brand",
+        "tagline",
+        "Personal",
+        "Branding",
+        "&",
+        "Bio"
+      ]
+    },
+    {
+      "category": "Personal Branding & Bio",
+      "name": "Grand-slam bio for a conference profile",
+      "prompt": "Write a conference speaker bio for {NAME} who does {SPECIALTY}. Third person. One specific achievement, one current focus, one sentence about what they'll talk about. Exactly 75 words.",
+      "tags": [
+        "Grand-slam",
+        "bio",
+        "for",
+        "a",
+        "conference",
+        "profile",
+        "Personal",
+        "Branding",
+        "&",
+        "Bio"
+      ]
+    },
+    {
+      "category": "Personal Branding & Bio",
+      "name": "Course instructor bio",
+      "prompt": "Write an instructor bio for a course page teaching '{TOPIC}' by {PERSONA}. Credentials (specific), teaching philosophy in one sentence, one personal detail to humanise, 150 words. Feels deserved.",
+      "tags": [
+        "Course",
+        "instructor",
+        "bio",
+        "Personal",
+        "Branding",
+        "&",
+        "Bio"
+      ]
+    },
+    {
+      "category": "Quick Decision & Action",
+      "name": "Decision matrix",
+      "prompt": "You need to choose between {OPTION_A} and {OPTION_B} for {DECISION}. Write a weighted decision matrix with: 4 criteria (weighted), score each option out of 10 per criterion, final recommendation with one-line reasoning. 150 words max.",
+      "tags": [
+        "Decision",
+        "matrix",
+        "Quick",
+        "Decision",
+        "&",
+        "Action"
+      ]
+    },
+    {
+      "category": "Quick Decision & Action",
+      "name": "Five whys root cause",
+      "prompt": "A team at {COMPANY_NICHE} is experiencing '{PROBLEM}'. Run the Five Whys. Actual answers, not generic. End with one specific action the team must take. 120 words. No jargon.",
+      "tags": [
+        "Five",
+        "whys",
+        "root",
+        "cause",
+        "Quick",
+        "Decision",
+        "&",
+        "Action"
+      ]
+    },
+    {
+      "category": "Quick Decision & Action",
+      "name": "Heckler call-out response",
+      "prompt": "You're on a LinkedIn post talking about '{TOPIC}' and someone says 'That only works if you're lucky / have connections / etc.' Write a confident, generous reply that doesn't take the bait. Data-backed. 60-80 words. Wins the thread.",
+      "tags": [
+        "Heckler",
+        "call-out",
+        "response",
+        "Quick",
+        "Decision",
+        "&",
+        "Action"
+      ]
+    },
+    {
+      "category": "Quick Decision & Action",
+      "name": "Quick win list",
+      "prompt": "Write a list of 5 quick wins a {ROLE} at a {STAGE} startup can implement this week related to {TOPIC}. Each is one sentence. Each costs no money. Each takes under 2 hours. Total list is 8 lines.",
+      "tags": [
+        "Quick",
+        "win",
+        "list",
+        "Quick",
+        "Decision",
+        "&",
+        "Action"
+      ]
+    }
+  ]
+}

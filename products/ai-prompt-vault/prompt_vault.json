@@ -1,0 +1,488 @@
+{
+  "product": "AI Prompt Vault",
+  "version": "v1.0",
+  "total_prompts": 48,
+  "description": "50 production-ready AI prompts you can copy, paste, and use today \u2014 no setup, no learning curve, no AI slop.",
+  "prompts": [
+    {
+      "category": "LinkedIn",
+      "tags": [
+        "LinkedIn",
+        "outreach",
+        "email"
+      ],
+      "name": "LinkedIn InMail cold",
+      "prompt_text": "120-word LinkedIn message to a {TITLE} at {COMPANY_TYPE}. One genuine reason you are reaching out specifically. One open question about their situation. Purpose: start a conversation, not book a call."
+    },
+    {
+      "category": "LinkedIn",
+      "tags": [
+        "LinkedIn",
+        "social",
+        "thought leadership"
+      ],
+      "name": "LinkedIn operator post",
+      "prompt_text": "Write a LinkedIn post from the POV of a founder who turned {COMPANY} from zero to ${REVENUE} in {TIME}. No bragging. One counterintuitive insight per short paragraph. 3-4 paragraphs total. End with one question. No emojis, no hashtags."
+    },
+    {
+      "category": "TikTok",
+      "tags": [
+        "TikTok",
+        "reels",
+        "social"
+      ],
+      "name": "TikTok hook-first caption",
+      "prompt_text": "First sentence: a hook that makes someone stop scrolling. Second sentence: the payoff/insight about {TOPIC}. Max 200 chars. No emojis, no hashtags. Format: [hook] \u2014 [insight about {TOPIC}]."
+    },
+    {
+      "category": "ai",
+      "tags": [
+        "ai",
+        "prompt engineering",
+        "writing"
+      ],
+      "name": "Claude summarisation system prompt",
+      "prompt_text": "Claude system prompt for summarizing {CONTENT_TYPE} documents. Output format: TL;DR (one sentence) \u2192 3-5 key points \u2192 one analysis sentence. Neutral expert tone. No advice. Specifies response language rules."
+    },
+    {
+      "category": "ai",
+      "tags": [
+        "ai",
+        "prompt engineering",
+        "chatbot"
+      ],
+      "name": "Customer service bot system prompt",
+      "prompt_text": "System prompt for a {COMPANY_TYPE} customer service chatbot. Rules: be concise, offer specific next steps, flag human handoff. Warm tone, no friendliness theatre. <200 words. Include escalation triggers."
+    },
+    {
+      "category": "ai",
+      "tags": [
+        "ai",
+        "agents",
+        "prompt engineering"
+      ],
+      "name": "Tool-routing agent system prompt",
+      "prompt_text": "System prompt for an AI assistant routing to 3 tools: {T1}, {T2}, {T3}. Rules: identify intent, select right tool, never invent data. Output JSON schema included."
+    },
+    {
+      "category": "api",
+      "tags": [
+        "api",
+        "code",
+        "documentation"
+      ],
+      "name": "OpenAPI endpoint YAML",
+      "prompt_text": "20-line OpenAPI 3.0 YAML snippet for POST endpoint: {ENDPOINT}. One request body field, 201 response struct, Bearer security. Valid YAML."
+    },
+    {
+      "category": "checkout",
+      "tags": [
+        "checkout",
+        "conversion",
+        "copywriting"
+      ],
+      "name": "15 checkout CTA labels",
+      "prompt_text": "15 checkout CTA button labels for a digital product. Mix clarity, urgency, and aspirational framing. Each 1-5 words. Flag any that are weak and why they do not convert."
+    },
+    {
+      "category": "code review",
+      "tags": [
+        "code review",
+        "dev",
+        "engineering"
+      ],
+      "name": "Code review feedback",
+      "prompt_text": "Review a PR changing {COMPONENT} in {TECH}. Name 2 strengths, suggest 2 improvements (one performance, one readability). 80 words. Constructive tone."
+    },
+    {
+      "category": "dalle",
+      "tags": [
+        "dalle",
+        "image",
+        "branding"
+      ],
+      "name": "DALL-E brand illustration",
+      "prompt_text": "DALL-E prompt for flat-vector brand illustration of {SUBJECT} for a {INDUSTRY} brand. Must read clearly at 512px thumbnail. No photorealism, no text, no logos."
+    },
+    {
+      "category": "dalle",
+      "tags": [
+        "dalle",
+        "website",
+        "image"
+      ],
+      "name": "Website hero image",
+      "prompt_text": "16:9 website hero image prompt for a {NICHE} brand. Brand colors: {C1} + {C2}. Subject: {SUBJECT}. Mood: {MOOD}. No text or logos. DALL-E 3 format: one paragraph, all details."
+    },
+    {
+      "category": "decision making",
+      "tags": [
+        "decision making",
+        "business",
+        "strategy"
+      ],
+      "name": "Weighted decision matrix",
+      "prompt_text": "Choose between {OPT_A} and {OPT_B} for {DECISION}. Weighted decision matrix: 4 criteria with weights, score each option out of 10 per criterion, final recommendation with one-line reasoning. 150 words max."
+    },
+    {
+      "category": "discord",
+      "tags": [
+        "discord",
+        "community",
+        "writing"
+      ],
+      "name": "Discord community announcement",
+      "prompt_text": "Discord announcement message to your community: {ANNOUNCEMENT}. Casual first-person, 'heads up' energy. What changes, what you are asking, one bottom-line question. Under 100 words."
+    },
+    {
+      "category": "email",
+      "tags": [
+        "email",
+        "newsletter",
+        "copywriting"
+      ],
+      "name": "5 email subject lines",
+      "prompt_text": "Five email subject lines for a '{TOPIC}' newsletter. Each targets a different persuasion lever: (1) curiosity gap, (2) FOMO clock, (3) social proof, (4) low-effort win, (5) contrarian hook. Label each."
+    },
+    {
+      "category": "email",
+      "tags": [
+        "email",
+        "communication",
+        "writing"
+      ],
+      "name": "Bad news email to customer",
+      "prompt_text": "Inform a customer that {BAD_NEWS} regarding {PROJECT}. Age it well: delay a sentence, clarity, a direct yes/no, then what replaces it. Warm but not effuse. 100 words."
+    },
+    {
+      "category": "email",
+      "tags": [
+        "email",
+        "cold outreach",
+        "copywriting"
+      ],
+      "name": "Cold email opener",
+      "prompt_text": "Cold email opener for reaching a {TITLE} at a {COMPANY_TYPE}. Never mention the product. One specific signal you researched them. Max 22 words."
+    },
+    {
+      "category": "email",
+      "tags": [
+        "email",
+        "communication",
+        "strategy"
+      ],
+      "name": "Email-to-text reframe for busy execs",
+      "prompt_text": "Rewrite the 120-word version of {CONTENT_SUBJECT} for a C-level exec who checks email on mobile in <15 seconds. Frontload: decision needed, then one-line rationale, then what happens if nothing changes. 80 words total."
+    },
+    {
+      "category": "email",
+      "tags": [
+        "email",
+        "launch",
+        "copywriting"
+      ],
+      "name": "Launch email sequence",
+      "prompt_text": "3 product launch emails, 2 days apart. Email 1: teaser \u2192 build \u2192 waitlist CTA. Email 2: launch \u2192 proof \u2192 purchase CTA. Email 3: reminder + deadline urgency. 80-120 words each."
+    },
+    {
+      "category": "email",
+      "tags": [
+        "email",
+        "newsletter",
+        "writing"
+      ],
+      "name": "Newsletter intro",
+      "prompt_text": "Opening paragraph of a solo-founder newsletter on {TOPIC}. 40 words. Peer-update feel, not a broadcast. Specific, warm, teases content without revealing all."
+    },
+    {
+      "category": "email",
+      "tags": [
+        "email",
+        "onboarding",
+        "retention"
+      ],
+      "name": "Post-purchase welcome email",
+      "prompt_text": "Welcome email after purchase of {PRODUCT}. 90 words. Confirm purchase \u2192 two-step starter action \u2192 one support detail \u2192 sign off."
+    },
+    {
+      "category": "email",
+      "tags": [
+        "email",
+        "retention",
+        "engagement"
+      ],
+      "name": "Re-engagement email",
+      "prompt_text": "Re-engagement email for subscribers inactive 90 days. Self-deprecating about oversending. One related exclusive resource as incentive. No guilt trips. 80 words."
+    },
+    {
+      "category": "email",
+      "tags": [
+        "email",
+        "incident",
+        "writing"
+      ],
+      "name": "Status update email",
+      "prompt_text": "Status update for a feature incident: {FEATURE}. 3 paragraphs max: what happened, what is resolved, ETA. Simple words. No jargon. No defensive language. One genuine apology."
+    },
+    {
+      "category": "facebook",
+      "tags": [
+        "facebook",
+        "ads",
+        "copywriting"
+      ],
+      "name": "Facebook ad copy",
+      "prompt_text": "150-word Facebook ad for {PRODUCT}. Structure: [2 sec hook] \u2192 [pain] \u2192 [solution] \u2192 [proof in metrics] \u2192 [CTA]. One benefit per sentence. One clear call to action."
+    },
+    {
+      "category": "git",
+      "tags": [
+        "git",
+        "dev",
+        "code"
+      ],
+      "name": "Conventional commit message",
+      "prompt_text": "Conventional commit for change: {CHANGE}. Format: <type>(<scope>): subject (\u226450 chars) + empty line + body (\u226472 chars/line, explains what and why, not how). Type: {feat|fix|refactor|docs}."
+    },
+    {
+      "category": "instagram",
+      "tags": [
+        "instagram",
+        "social",
+        "stories"
+      ],
+      "name": "IG Stories 5-card swipe sequence",
+      "prompt_text": "5 consecutive Instagram Stories slides about {TOPIC}. One sentence each. Progressive build: hook \u2192 2 learning \u2192 pain \u2192 CTA. Under 40 words per slide. No emojis."
+    },
+    {
+      "category": "instagram",
+      "tags": [
+        "instagram",
+        "social",
+        "carousel"
+      ],
+      "name": "IG carousel slide 1 hook",
+      "prompt_text": "Slide 1 of a 10-slide Instagram carousel about {TOPIC}. Hook must interrupt scroll. One dominant number or fact. No exclamation points. Under 20 words on this slide."
+    },
+    {
+      "category": "launch",
+      "tags": [
+        "launch",
+        "writing",
+        "product"
+      ],
+      "name": "Beta announcement arc",
+      "prompt_text": "320-word product launch announcement arc for beta of {PRODUCT}. Opening hook with the pain in direct plain language. Problem context (1-2 para). Beta decision with one genuine tension. Close with a specific call for the first 50 beta testers to contact you."
+    },
+    {
+      "category": "linkedin",
+      "tags": [
+        "linkedin",
+        "instagram",
+        "social"
+      ],
+      "name": "LinkedIn carousel body copy cheat sheet",
+      "prompt_text": "Contextual copy for a 7-slide Instagram carousel on {TOPIC}: Slide1 hook, Slide2 pain, Slides3-6 evidence or examples, Slide7 CTA. Max 280 chars per slide body. Label each slide."
+    },
+    {
+      "category": "midjourney",
+      "tags": [
+        "midjourney",
+        "image",
+        "product"
+      ],
+      "name": "Midjourney product photo",
+      "prompt_text": "Midjourney v6 prompt for product photography of {PRODUCT}. Neutral studio lighting, {BG_COLOR} background, centered, catalogue quality. --v 6 --ar 3:2 --style raw. Format: subject \u2192 composition \u2192 tech parameters."
+    },
+    {
+      "category": "presentations",
+      "tags": [
+        "presentations",
+        "public speaking",
+        "strategy"
+      ],
+      "name": "Hostile audience opening",
+      "prompt_text": "Opening line for a talk to an audience that is already skeptical about {TOPIC}. Do not defend, do not apologize. Name the doubt directly, then reframe it as your core argument. 35 words. Wins the room before it starts."
+    },
+    {
+      "category": "problem solving",
+      "tags": [
+        "problem solving",
+        "business",
+        "strategy"
+      ],
+      "name": "Five whys root cause",
+      "prompt_text": "Team at {COMPANY_NICHE} facing '{PROBLEM}'. Run the Five Whys with actual answers (not generic). End with one mandatory action. 120 words. No jargon."
+    },
+    {
+      "category": "product",
+      "tags": [
+        "product",
+        "strategy",
+        "engineering"
+      ],
+      "name": "Internal product brief template",
+      "prompt_text": "Write a 5-sentence interal product brief for {FEATURE}. Include: the user pain, the proposed solution shape, what success looks like in 30 days. Sharp, no fluff. Sprint-planning ready."
+    },
+    {
+      "category": "productivity",
+      "tags": [
+        "productivity",
+        "startup",
+        "business"
+      ],
+      "name": "5 quick wins list",
+      "prompt_text": "5 quick wins a {ROLE} at a {STAGE} startup can implement this week on {TOPIC}. Each: one sentence, no budget, under 2 hours. Total 8 lines."
+    },
+    {
+      "category": "saas",
+      "tags": [
+        "saas",
+        "landing page",
+        "copywriting"
+      ],
+      "name": "SaaS landing H1 + subhead",
+      "prompt_text": "H1 (\u22647 words of benefit) + subhead (\u226415 words decoding the mechanism) for a SaaS page selling {PRODUCT} to {AUDIENCE}. Benefit-first, not feature-first. No jargon."
+    },
+    {
+      "category": "sales",
+      "tags": [
+        "sales",
+        "objection handling",
+        "copywriting"
+      ],
+      "name": "Objection reframe",
+      "prompt_text": "Objection: '{OBJECTION}' when selling {PRODUCT}. Feel-Felt-Found reply in 60 words. Acknowledge \u2192 align \u2192 outcome evidence. No defensiveness."
+    },
+    {
+      "category": "seo",
+      "tags": [
+        "seo",
+        "blog",
+        "content"
+      ],
+      "name": "Blog pillar article outline",
+      "prompt_text": "6-section H2 outline for 1800-word pillar article: {TITLE}. Each: heading + 2 sub-bullets + one key idea. Intro + conclusion included."
+    },
+    {
+      "category": "seo",
+      "tags": [
+        "seo",
+        "faq",
+        "content"
+      ],
+      "name": "FAQ section",
+      "prompt_text": "5 FAQ entries for {PRODUCT}. Two pre-purchase, two objections, one logistics. Format: **Q:** | A: 40-60 words. Include section heading."
+    },
+    {
+      "category": "seo",
+      "tags": [
+        "seo",
+        "blog",
+        "content"
+      ],
+      "name": "Listicle intro",
+      "prompt_text": "60-word intro for a listicle: {TITLE}. First sentence: the problem. Second: tease the sharpest insight. Include the action verb {VERB} in the hook sentence."
+    },
+    {
+      "category": "seo",
+      "tags": [
+        "seo",
+        "meta",
+        "writing"
+      ],
+      "name": "SEO meta description",
+      "prompt_text": "SEO meta description for a blog post about {TOPIC} targeting keyword {KEYWORD}. Max 160 chars. Natural fit. End with 'Learn more'."
+    },
+    {
+      "category": "social media",
+      "tags": [
+        "social media",
+        "engagement",
+        "writing"
+      ],
+      "name": "Heckler call-out reply",
+      "prompt_text": "On a LinkedIn post about {TOPIC}, someone says 'That only works if you are lucky / have connections.' Write a confident, generous, data-backed reply. 60-80 words. Wins the thread."
+    },
+    {
+      "category": "sql",
+      "tags": [
+        "sql",
+        "data",
+        "engineering"
+      ],
+      "name": "SQL query explainer",
+      "prompt_text": "Explain SQL query in plain words for a non-technical stakeholder: {QUERY}. Break down: what it reads | what it filters | business output. 120 words max."
+    },
+    {
+      "category": "twitter",
+      "tags": [
+        "twitter",
+        "social",
+        "perspective"
+      ],
+      "name": "Subversive one-liner tweet",
+      "prompt_text": "One tweet quietly challenging a dominant belief in {NICHE}. Feels like on-the-ground context, not a hot take. Max 280 chars."
+    },
+    {
+      "category": "twitter",
+      "tags": [
+        "twitter",
+        "social",
+        "engagement"
+      ],
+      "name": "Twitter reply that wins the thread",
+      "prompt_text": "Respond to a viral tweet about {TOPIC}. Add one data point the OP missed. 2-3 sentences. End with a question that continues the conversation."
+    },
+    {
+      "category": "twitter",
+      "tags": [
+        "twitter",
+        "social",
+        "thread"
+      ],
+      "name": "Twitter thread opener",
+      "prompt_text": "Write a 7-tweet thread about {TOPIC}. Tweet 1: counterintuitive but defensible. Tweets 2-6: one point + one example per tweet. Tweet 7: specific CTA. Zero filler."
+    },
+    {
+      "category": "youtube",
+      "tags": [
+        "youtube",
+        "social",
+        "video"
+      ],
+      "name": "YouTube Shorts 15s script",
+      "prompt_text": "15-second YouTube Shorts script about {TOPIC}. Format: 0-4s hook | 4-12s main point with visual cue | 12-15s CTA. Script in seconds. Total words under 70."
+    },
+    {
+      "category": "youtube",
+      "tags": [
+        "youtube",
+        "social",
+        "engagement"
+      ],
+      "name": "YouTube comment reply as creator",
+      "prompt_text": "Reply to a YouTube comment on a {TOPIC} video. 30-50 words. Answer the question, add one tip not in the video, invite deeper questions."
+    },
+    {
+      "category": "youtube",
+      "tags": [
+        "youtube",
+        "seo",
+        "content"
+      ],
+      "name": "YouTube description + chapters",
+      "prompt_text": "YouTube description for a 15-min video on {TOPIC}. 2-paragraph hook, 5 named chapter timestamps at approximate positions, 3 key takeaways as bullets. End CTA: subscribe + comment code word."
+    },
+    {
+      "category": "youtube",
+      "tags": [
+        "youtube",
+        "thumbnail",
+        "image"
+      ],
+      "name": "YouTube thumbnail concept",
+      "prompt_text": "YouTube thumbnail prompt for video: {TITLE}. Max 3 visual elements, one high-contrast dominant focal subject, red or orange accent. No text in image. --ar 16:9."
+    }
+  ]
+}

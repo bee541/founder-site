@@ -1,0 +1,149 @@
+{
+  "database_name": "Creator Calendar 2026",
+  "entries": [
+    {
+      "id": "Q1",
+      "month": "January",
+      "theme": "Foundation Month",
+      "focus": "Build your base",
+      "weekly_focus_1": "brand identity",
+      "weekly_focus_2": "URL",
+      "weekly_focus_3": "positioning statement",
+      "weekly_focus_4": "2 lead magnets",
+      "quarterly_summary": "Foundation Month: Build your base. Check-ins: weeks 1, 2, 4.",
+      "done": false
+    },
+    {
+      "id": "Q2",
+      "month": "February",
+      "theme": "Content Month",
+      "focus": "Post consistently",
+      "weekly_focus_1": "30 Reels/TikToks",
+      "weekly_focus_2": "12 shorts",
+      "weekly_focus_3": "4 long-form videos",
+      "weekly_focus_4": "nailed your primary platform",
+      "quarterly_summary": "Content Month: Post consistently. Check-ins: weeks 1, 2, 4.",
+      "done": false
+    },
+    {
+      "id": "Q3",
+      "month": "March",
+      "theme": "Audience Month",
+      "focus": "Grow from ___",
+      "weekly_focus_1": "launch auto-DM sequence",
+      "weekly_focus_2": "start community invite",
+      "weekly_focus_3": "grow followers from current to target",
+      "weekly_focus_4": "",
+      "quarterly_summary": "Audience Month: Grow from ___. Check-ins: weeks 1, 2, 4.",
+      "done": false
+    },
+    {
+      "id": "Q4",
+      "month": "April",
+      "theme": "Network Month",
+      "focus": "Meet the right people",
+      "weekly_focus_1": "reach out to 50 peers in niche",
+      "weekly_focus_2": "comment on 30 top creators posts daily",
+      "weekly_focus_3": "engage in 3 creator communities",
+      "weekly_focus_4": "",
+      "quarterly_summary": "Network Month: Meet the right people. Check-ins: weeks 1, 2, 4.",
+      "done": false
+    },
+    {
+      "id": "Q5",
+      "month": "May",
+      "theme": "Monetise Study Month",
+      "focus": "Learn the 5 ways",
+      "weekly_focus_1": "research 10 monetisation models",
+      "weekly_focus_2": "interview 3 creators who actually monetise",
+      "weekly_focus_3": "identify fit",
+      "weekly_focus_4": "write pricing proposals",
+      "quarterly_summary": "Monetise Study Month: Learn the 5 ways. Check-ins: weeks 1, 2, 4.",
+      "done": false
+    },
+    {
+      "id": "Q6",
+      "month": "June",
+      "theme": "Launch Month",
+      "focus": "Get first revenue",
+      "weekly_focus_1": "pick one model",
+      "weekly_focus_2": "outline the offer",
+      "weekly_focus_3": "launch to existing audience",
+      "weekly_focus_4": "chase first 10 customers",
+      "quarterly_summary": "Launch Month: Get first revenue. Check-ins: weeks 1, 2, 4.",
+      "done": false
+    },
+    {
+      "id": "Q7",
+      "month": "July",
+      "theme": "Review & Reset",
+      "focus": "What worked",
+      "weekly_focus_1": "review first-half metrics",
+      "weekly_focus_2": "kill 1 thing",
+      "weekly_focus_3": "double 1 thing",
+      "weekly_focus_4": "set H2 goals",
+      "quarterly_summary": "Review & Reset: What worked. Check-ins: weeks 1, 2, 4.",
+      "done": false
+    },
+    {
+      "id": "Q8",
+      "month": "August",
+      "theme": "Content Upgrade",
+      "focus": "Level up quality",
+      "weekly_focus_1": "invest in equipment upgrade",
+      "weekly_focus_2": "hire 1 video editor or AI tool",
+      "weekly_focus_3": "publish 1 pillar episode",
+      "weekly_focus_4": "",
+      "quarterly_summary": "Content Upgrade: Level up quality. Check-ins: weeks 1, 2, 4.",
+      "done": false
+    },
+    {
+      "id": "Q9",
+      "month": "September",
+      "theme": "Partnerships",
+      "focus": "Grow without content",
+      "weekly_focus_1": "reach 50 potential affiliate partners",
+      "weekly_focus_2": "setup affiliate program",
+      "weekly_focus_3": "pitch 5 big-ticket partners",
+      "weekly_focus_4": "",
+      "quarterly_summary": "Partnerships: Grow without content. Check-ins: weeks 1, 2, 4.",
+      "done": false
+    },
+    {
+      "id": "Q10",
+      "month": "October",
+      "theme": "Scale Month",
+      "focus": "Multiply distribution",
+      "weekly_focus_1": "repurpose 50 content pieces into 10 new formats",
+      "weekly_focus_2": "launch newsletter or sub-stack",
+      "weekly_focus_3": "publish one blog per week",
+      "weekly_focus_4": "",
+      "quarterly_summary": "Scale Month: Multiply distribution. Check-ins: weeks 1, 2, 4.",
+      "done": false
+    },
+    {
+      "id": "Q11",
+      "month": "November",
+      "theme": "Creation Sprint",
+      "focus": "Ship the product",
+      "weekly_focus_1": "build a paid product",
+      "weekly_focus_2": "beta test with 20 subscribers from community",
+      "weekly_focus_3": "refine based on feedback",
+      "weekly_focus_4": "",
+      "quarterly_summary": "Creation Sprint: Ship the product. Check-ins: weeks 1, 2, 4.",
+      "done": false
+    },
+    {
+      "id": "Q12",
+      "month": "December",
+      "theme": "Review + Goal",
+      "focus": "Year 1 complete",
+      "weekly_focus_1": "review all metrics",
+      "weekly_focus_2": "celebrate wins",
+      "weekly_focus_3": "plan Year 2",
+      "weekly_focus_4": "write next year's annual calendar",
+      "quarterly_summary": "Review + Goal: Year 1 complete. Check-ins: weeks 1, 2, 4.",
+      "done": false
+    }
+  ]
+}
